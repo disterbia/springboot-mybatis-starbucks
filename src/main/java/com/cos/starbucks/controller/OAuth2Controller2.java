@@ -48,7 +48,7 @@ public class OAuth2Controller2 {
 	@GetMapping("/naver/login")
 	public String kakaoLogin(HttpSession session) {
 		try {
-			redirectUri = URLEncoder.encode("http://localhost:8080/naver/callback", "UTF-8");
+			redirectUri = URLEncoder.encode("http://ec2-13-209-174-64.ap-northeast-2.compute.amazonaws.com:8080/naver/callback", "UTF-8");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

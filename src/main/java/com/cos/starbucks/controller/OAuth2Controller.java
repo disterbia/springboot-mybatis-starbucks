@@ -37,7 +37,7 @@ public class OAuth2Controller {
 	
 	
 	private String clientId = "667bc5d2d523d75df0ce851ed17c6560";
-	private String redirectUri = "http://localhost:8080/kakao/callback";
+	private String redirectUri = "http://ec2-13-209-174-64.ap-northeast-2.compute.amazonaws.com:8080/kakao/callback";
 	
 	
 	@GetMapping("/kakao/login")
