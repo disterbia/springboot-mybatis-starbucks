@@ -11,7 +11,7 @@ spring:
       suffix: .jsp
 
   datasource:
-    url: jdbc:mysql://localhost:3306/starbucks?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://13.209.174.64:3306/starbucks?serverTimezone=Asia/Seoul
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: starbucks
     password: bitc5600
